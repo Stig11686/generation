@@ -3,6 +3,8 @@ const util = require('util')
 const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
+  //add new date filter to nunjucks templates
+  eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
 
   // https://www.11ty.io/docs/quicktips/inline-css/
   eleventyConfig.addFilter("cssmin", function(code) {
