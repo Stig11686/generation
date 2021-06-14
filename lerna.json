@@ -1,7 +1,8 @@
 {
   "packages": [
     "web",
-    "studio"
+    "studio",
+    "build-css"
   ],
   "version": "1.0.0"
 }
