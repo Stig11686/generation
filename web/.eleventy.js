@@ -5,7 +5,7 @@ const CleanCSS = require("clean-css");
 module.exports = function(eleventyConfig) {
 
 
-  eleventyConfig.addPassthroughCopy('public');
+  eleventyConfig.addPassthroughCopy("public");
 
   //add new date filter to nunjucks templates
   eleventyConfig.addFilter("dateDisplay", require("./filters/dates.js"))
