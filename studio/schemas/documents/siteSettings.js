@@ -10,6 +10,12 @@ export default {
       title: 'Title'
     },
     {
+      name: 'logo',
+      type: 'image',
+      title: 'Logo',
+      description: 'Upload Logo - Use any valid image file, but use SVG for maximum effect!'
+    },
+    {
       name: 'description',
       type: 'text',
       title: 'Description',

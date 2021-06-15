@@ -3,7 +3,7 @@ export default {
     type: 'document',
     title: 'Graduates',
     fieldsets: [
-        {name: 'social', title: 'Social media handles'}
+        {name: 'social', title: 'Social media handles', descripton: 'Enter just the username of your social media accounts'}
     ],
     fields: [
       {
